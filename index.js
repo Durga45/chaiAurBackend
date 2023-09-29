@@ -19,6 +19,10 @@ app.get('/login',(req,res)=>{
     res.send("<h1>Please login</h1>")
 })
 
+app.get('/githun',(req,res)=>{
+    res.send("<h1>Durga45 is my username</h1>")
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`example app listening on port ${process.env.PORT} `)
 })
